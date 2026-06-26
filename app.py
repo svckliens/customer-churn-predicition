@@ -114,12 +114,14 @@ with tab1:
         st.warning("""
         ⚠️ **Model belum tersedia!**
 
-        Silakan jalankan notebook `PROGRESS_UAS_BENGKOD_MINGGU_4_15189.ipynb` terlebih dahulu
+        Silakan jalankan notebook `customer_churn_prediction.ipynb` terlebih dahulu
         untuk melatih dan menyimpan model ke folder `model/`.
 
         ```bash
-        jupyter notebook PROGRESS_UAS_BENGKOD_MINGGU_4_15189.ipynb
+        jupyter notebook customer_churn_prediction.ipynb
         ```
+
+        **Jika sudah deploy ke Streamlit Cloud:** Pastikan folder `model/` (berisi `best_model.pkl`, `scaler.pkl`, `model_info.json`, `results_all_models.csv`) sudah ter-push ke repository GitHub Anda.
         """)
     else:
         info = artifacts.get('info', {})
