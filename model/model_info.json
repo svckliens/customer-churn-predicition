@@ -1,0 +1,115 @@
+{
+  "model_name": "Random Forest",
+  "scenario": "Tuning",
+  "features": [
+    "total_spent",
+    "satisfaction_score",
+    "support_tickets",
+    "avg_session_time",
+    "marketing_spend_per_user",
+    "pages_per_session",
+    "avg_order_value",
+    "lifetime_value",
+    "email_open_rate",
+    "email_click_rate",
+    "age",
+    "total_visits",
+    "last_3_month_purchase_freq",
+    "nps_score",
+    "delivery_delay_days"
+  ],
+  "all_features": [
+    "gender",
+    "age",
+    "country",
+    "city",
+    "acquisition_channel",
+    "device_type",
+    "subscription_type",
+    "is_premium_user",
+    "total_visits",
+    "avg_session_time",
+    "pages_per_session",
+    "email_open_rate",
+    "email_click_rate",
+    "total_spent",
+    "avg_order_value",
+    "discount_used",
+    "support_tickets",
+    "refund_requested",
+    "delivery_delay_days",
+    "payment_method",
+    "satisfaction_score",
+    "nps_score",
+    "marketing_spend_per_user",
+    "lifetime_value",
+    "last_3_month_purchase_freq"
+  ],
+  "top_features": [
+    "total_spent",
+    "satisfaction_score",
+    "support_tickets",
+    "avg_session_time",
+    "marketing_spend_per_user",
+    "pages_per_session",
+    "avg_order_value",
+    "lifetime_value",
+    "email_open_rate",
+    "email_click_rate",
+    "age",
+    "total_visits",
+    "last_3_month_purchase_freq",
+    "nps_score",
+    "delivery_delay_days"
+  ],
+  "accuracy": 0.855,
+  "f1_score": 0.6785,
+  "precision": 0.514,
+  "recall": 0.9978,
+  "label_encoder_classes": {
+    "gender": [
+      "Female",
+      "Male",
+      "Other"
+    ],
+    "country": [
+      "Bangladesh",
+      "Germany",
+      "India",
+      "UK",
+      "USA"
+    ],
+    "city": [
+      "Berlin",
+      "Delhi",
+      "Dhaka",
+      "Hamburg",
+      "London",
+      "Mumbai",
+      "New York"
+    ],
+    "acquisition_channel": [
+      "Email",
+      "Facebook Ads",
+      "Google Ads",
+      "Organic",
+      "Referral"
+    ],
+    "device_type": [
+      "Desktop",
+      "Mobile",
+      "Tablet"
+    ],
+    "subscription_type": [
+      "Annual",
+      "Monthly"
+    ],
+    "payment_method": [
+      "BKash",
+      "Card",
+      "PayPal",
+      "SEPA",
+      "UPI"
+    ]
+  }
+}

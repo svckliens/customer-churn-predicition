@@ -1,0 +1,22 @@
+# Python virtual environment
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit
+.streamlit/
+
+# File model (biasanya berukuran besar)
+model/*.pkl
+model/scaler.pkl
+
+# File hasil (jika tidak ingin di-track)
+model/results_all_models.csv
+
+# File sistem operasi
+.DS_Store
+Thumbs.db
