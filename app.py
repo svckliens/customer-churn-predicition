@@ -114,11 +114,11 @@ with tab1:
         st.warning("""
         ⚠️ **Model belum tersedia!**
 
-        Silakan jalankan notebook `customer_churn_prediction.ipynb` terlebih dahulu
+        Silakan jalankan notebook `CUSTOMER_CHURN_PREDICTION.ipynb` terlebih dahulu
         untuk melatih dan menyimpan model ke folder `model/`.
 
         ```bash
-        jupyter notebook customer_churn_prediction.ipynb
+        jupyter notebook CUSTOMER_CHURN_PREDICTION.ipynb
         ```
 
         **Jika sudah deploy ke Streamlit Cloud:** Pastikan folder `model/` (berisi `best_model.pkl`, `scaler.pkl`, `model_info.json`, `results_all_models.csv`) sudah ter-push ke repository GitHub Anda.
